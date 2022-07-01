@@ -6,11 +6,11 @@
 /* more headers goes there */
 
 
-/* function main returns the type of number generated randomly
- *
+/**
  * main - entry point
  *
- * returns: 0 */
+ * Return: 0
+ */
 
 int main(void)
 
@@ -22,15 +22,15 @@ int main(void)
 		n = rand() - RAND_MAX / 2;
 		if (n > 0)
 		{
-			printf("%c", n);
+			printf("%d", n);
 			printf(" is positive\n");
 		} else if (n == 0)
 		{
-			printf("%c", n);
+			printf("%d", n);
 			printf(" is zero \n");
 		} else if (n < 0)
 		{
-			printf("%c", n);
+			printf("%d", n);
 			printf(" is negative\n");
 		}
 		return (0);
