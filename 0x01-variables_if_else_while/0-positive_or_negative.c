@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 
 #include <time.h>
 
@@ -17,13 +18,16 @@ int main(void)
 		
 		if(n>0)
 		{
-			printf(n," is positive \n");
-		}else if( n = 0)
+			printf("%c",n);
+			printf(" is positive\n");
+		}else if( n == 0)
 		{
-			printf(n," is zero \n");
+			printf("%c",n);
+			printf(" is zero \n");
 		}else if( n < 0)
 		{
-			printf(n," is negative\n");
+			printf("%c",n);
+			printf(" is negative\n");
 		}
 		return (0);
 
