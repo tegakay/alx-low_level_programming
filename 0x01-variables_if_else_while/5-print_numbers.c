@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /*
- * main -Entry Point
+ * main - Entry Point
  *
- * Return: o
+ * Return: Always 0
  */
 
 int main(void)
@@ -12,8 +12,8 @@ int main(void)
 
 	for (number = 0; number < 10; number++)
 	{
-		printf("%d",number);
-		printf("\n");
+		printf("%d", number);
 	}
+	printf("\n");
 	return (0);
 }
