@@ -1,10 +1,4 @@
-/*
- *
- * *File: alphabet ten times
- *
- *
- *
- */
+
 
 #include "main.h"
 
