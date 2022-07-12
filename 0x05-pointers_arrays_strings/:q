@@ -2,7 +2,7 @@
 
 /**
  * print_rev - print a string in reverse
- * @s: string to reversse
+ * @s- string to reversse
  * returns - string in reverse
  */
 
