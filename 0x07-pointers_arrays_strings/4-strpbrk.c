@@ -3,24 +3,25 @@
 /**
  * _strpbrk - locate first occurence in string
  * @s: the string
- * @acept:the value to match
+ * @accept:the value to match
  * Return: a pointer
  */
 
 char *_strpbrk(char *s, char *accept)
 {
 	int i, j;
+	char *p;
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		for (j = 0; accept[j] != '\0'; j++)
 		{
 			if (s[i] == accept[j])
-				*s = *(s+i);
-			return (s);
-				
+			{
+				p = &s[i];
+				return (p);
+			}
 		}
-		break;
 	}
 	return (s);
 }
