@@ -6,7 +6,7 @@
  * find_multipliers - look for multipliers of n.
  * @n: base number.
  * @i: iterator number.
- * Return: 1 if n is prime, 0 otherwise.
+ * Return: 1 if n is prime
  */
 
 int find_multipliers(int n, int i)
