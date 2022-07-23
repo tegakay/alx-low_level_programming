@@ -15,7 +15,7 @@
 int main(int argc, char *argv[])
 {
 	int i, j;
-	
+
 	i = 1;
 	j = 2;
 	if (argc > 3)
