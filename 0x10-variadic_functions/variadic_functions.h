@@ -10,27 +10,6 @@
 
 
 
-/**
- *
- *  * struct print - print type with corresponding print function
- *
- *   * @t: print type
- *
- *    * @f: print function
- *
- *     */
-
-typedef struct print
-
-{
-
-		char *t;
-
-			void (*f)(va_list);
-
-} print_t;
-
-
 
 int _putchar(char c);
 
