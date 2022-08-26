@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * create_file -creates an array 
- *
+ * create_file -creates an array
  * @text_content: is a NULL terminated string to write to the file
  * @filename: is the name of the file to create
  *
